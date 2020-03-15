@@ -1,0 +1,4 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","# devtools::install_github(""davan690/epuRate"", lib=""C:/Program Files/R/R-3.6.2/library"")"
+"0","library(epuRate)"
+"0","library(rmarkdown)"
