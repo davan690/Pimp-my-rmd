@@ -14,6 +14,17 @@ output:
     code_folding: "show"
 ---
 
+```{r}
+# sets paths for computers with other software components
+# this code block produces an enviroment warning
+# but not sure how to sort depenancies still
+# Feb2020
+# myPaths <- .libPaths("C:/Program Files/R/R-3.6.2/library")
+# myPaths <- c(myPaths)
+# .libPaths(myPaths)  # add new path
+# .libPaths()
+```
+
 <style>
 #TOC {
   top: 1%;
@@ -26,6 +37,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+# devtools::install_github("davan690/epuRate", lib="C:/Program Files/R/R-3.6.2/library")
 library(epuRate)
 library(rmarkdown)
 ```
